@@ -1,46 +1,90 @@
 // create an pokemonGenerator object and intialize function
+const pokemonGenerator = {};
+
+pokemonGenerator.name = [];
+
+pokemonGenerator.photo = [];
 
 // API url
+pokemonGenerator.url = "https://pokeapi.co/api/v2/pokemon/";
 
 // create a getData function
-    // construct the url
-    // fetch from url
-    // convert to .json
-    // save data to namespace object
+pokemonGenerator.getData = () => {
+  // construct the url
+  const url = new URL(pokemonGenerator.url);
+  url.search = new URLSearchParams({
+    url: "url",
+    limit: 248,
+  });
 
+  // fetch from url
+  fetch(url)
+    .then((response) => {
+      // convert to .json
+      return response.json();
+    })
+    .then((jsonData) => {
+      // save data to namespace object
+      pokemonGenerator.data = jsonData;
+      // call function to display names
+      pokemonGenerator.displayPokemon();
+
+      console.log(pokemonGenerator.data);
+    });
+};
 
 // displayData();
-
+pokemonGenerator.displayPokemon = () => {
+    console.log('display pokemon')
     // select header
+    const headerElement = document.querySelector("h1");
+    const pokemonName = pokemonGenerator.data.results[Math.floor(Math.random() * 248 +1)];
 
-    // select the image
+    console.log(pokemonName);
+    // get name from namespace object
 
-    // get data from namespace object
 
-        // loop thru data
+//   pokemonGenerator.data.forEach ( (name) => {
+//     console.log(name);
+//   });
+  // loop through object and append name to header
 
-        // create a dropdownElement
+};
 
-        // create headerElement
+// select the image
 
-        // create imageElement
+// get data from namespace object
 
-        // create randomizeButton
+// loop thru data
 
-        // set value of dropdownElement
+// create a dropdownElement
 
-        // set value of headerElement
+// create headerElement
 
-        // set value of imageElement
+// create imageElement
 
-        // set value of randomizeButton
+// create randomizeButton
 
-        // append array of pokemon to dropdownElement
+// set value of dropdownElement
 
-        // append pokemon name to headerElement
+// set value of headerElement
 
-        // append image to imageElement
+// set value of imageElement
 
-        // append data to page from randomizeButton on click
+// set value of randomizeButton
 
-        // call init method!
+// append array of pokemon to dropdownElement
+
+// append pokemon name to headerElement
+
+// append image to imageElement
+
+// append data to page from randomizeButton on click
+
+// call init method!
+
+pokemonGenerator.init = () => {
+  pokemonGenerator.getData();
+};
+
+pokemonGenerator.init();

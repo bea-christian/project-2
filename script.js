@@ -10,7 +10,8 @@ pokemonGenerator.getData = () => {
     // construct the URL
     const url = new URL(pokemonGenerator.url);
     url.search = new URLSearchParams({
-        
+      url: 'url',
+      limit: 248,
     });
 
     // fetch from url
