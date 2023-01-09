@@ -42,7 +42,7 @@ console.log(event);
     const headerElement = document.querySelector('h1');
 
     // select image
-    const imgElement = document.querySelector('img')
+    const imgElement = document.querySelector('.pokemonImage')
 
     // get random name and image from namespace object
     const pokemonInfo = pokemonGenerator.data.results[Math.floor(Math.random() * 248 + 1)];
