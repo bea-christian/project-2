@@ -301,13 +301,12 @@ button {
   padding: 21px 23px;
   border-radius: 10px;
   background-color: yellow;
-  -webkit-box-shadow: -3px 3px 5px #000;
-  box-shadow: -3px 3px 5px #000;
   text-transform: uppercase;
   font-size: 1rem;
   margin-top: 490px;
   margin-right: 499px;
   color: black;
+  border: 1px solid black;
 }
 
 .pokename {
@@ -400,7 +399,7 @@ a:hover, a:focus {
   }
   .pokename {
     margin-top: 214px;
-    margin-left: 211px;
+    margin-left: 213px;
   }
   h1 {
     font-size: 0.8rem;
