@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokegenerator</title>
+    <link rel="stylesheet" href="./landingPageStyles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img
+          class="pokegenerator"
+          src="./assets//Pokegenerator Font.png"
+          alt="pokegenerator"
+        />
+        <a href="index.html" style="display: contents">
+          <img class="enter" src="./assets/IMG_0604.PNG" alt="enter button" />
+        </a>
+      </header>
+    </div>
+
+    <iframe
+      src="./assets/yt5s.io - Pokémon Season 1 Indigo League - Opening Theme (320 kbps).mp3"
+      allow="autoplay"
+      id="audio"
+      hidden
+    ></iframe>
+    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
+    <audio id="player" autoplay>
+      <source
+        src="./assets/yt5s.io - Pokemon Red_Blue Opening (320 kbps).mp3"
+        type="audio/mp3"
+      />
+    </audio>
+
+    <script>
+      var audio = document.getElementById("player");
+      audio.volume = 0.1;
+    </script>
+
+  </body>
+</html>
