@@ -1,0 +1,187 @@
+// TABLET
+@media (max-width: 920px) {
+
+    .pokegenerator {
+    margin-bottom: 0px;
+    }
+
+    .pokedex {
+        width: 700px;
+    }
+
+    button {
+    padding: 16px 19px;
+    font-size: 0.9rem;
+    margin-top: 462px;
+    margin-right: 430px;
+    }
+
+    .pokemonImage {
+    width: 180px;
+    margin-top: 177px;
+    margin-right: 363px;
+    }
+
+    .pokename {
+    margin-top: 202px;
+    margin-left: 242px;
+    }
+
+    h1 {
+    font-size: 0.9rem;
+    }
+
+    h2 {
+    font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 780px) {
+
+    .pokegenerator {
+    margin-bottom: -50px;
+    }
+
+    .pokedex {
+        width: 600px;
+    }
+
+    button {
+    padding: 13px 13px;
+    font-size: 0.8rem;
+    margin-top: 439px;
+    margin-right: 362px;
+    }
+
+    .pokemonImage {
+    width: 170px;
+    margin-top: 183px;
+    margin-right: 322px;
+    }
+
+    .pokename {
+    margin-top: 214px;
+    margin-left: 211px;
+    }
+
+    h1 {
+    font-size: 0.8rem;
+    }
+
+    h2 {
+    font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .pokegenerator {
+    margin-bottom: -80px;
+    }
+
+    .pokedex {
+        width: 500px;
+    }
+
+    button {
+    padding: 12px 10px;
+    font-size: 0.7rem;
+    margin-top: 414px;
+    margin-right: 301px;
+    }
+
+    .pokemonImage {
+    width: 150px;
+    margin-top: 200px;
+    margin-right: 253px;
+    }
+
+    .pokename {
+    margin-top: 228px;
+    margin-left: 176px;
+    }
+
+    h1 {
+    font-size: 0.67rem;
+    }
+
+    h2 {
+    font-size: 0.67rem;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .pokegenerator {
+    margin-bottom: -120px;
+    }
+
+    .pokedex {
+        width: 400px;
+    }
+
+    button {
+    padding: 8px 9px;
+    font-size: 0.6rem;
+    margin-top: 392px;
+    margin-right: 243px;
+    }
+
+    .pokemonImage {
+    width: 110px;
+    margin-top: 228px;
+    margin-right: 209px;
+    }
+
+    .pokename {
+    margin-top: 245px;
+    margin-left: 135px;
+    }
+
+    h1 {
+    font-size: 0.5rem;
+    }
+
+    h2 {
+    font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .pokegenerator {
+    margin-bottom: -160px;
+    }
+
+    .pokedex {
+        width: 280px;
+    }
+
+    button {
+    padding: 5px 6px;
+    margin-top: 364px;
+    margin-right: 170px;
+    border-radius: 5px;
+    font-size: 0.4rem;
+    }
+
+    .pokemonImage {
+    width: 80px;
+    margin-top: 247px;
+    margin-right: 143px;
+    }
+
+    .pokename {
+    margin-top: 260px;
+    margin-left: 97px;
+    }
+
+    h1 {
+    font-size: 0.37rem;
+    }
+
+    h2 {
+    font-size: 0.37rem;
+    }
+}
