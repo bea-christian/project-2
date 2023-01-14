@@ -474,7 +474,7 @@ a:hover, a:focus {
     width: 280px;
   }
   button {
-    padding: 6px 6px;
+    padding: 7px 6px;
     margin-top: 365px;
     margin-right: 170px;
     border-radius: 5px;
@@ -486,8 +486,8 @@ a:hover, a:focus {
     margin-right: 143px;
   }
   .pokename {
-    margin-top: 260px;
-    margin-left: 106px;
+    margin-top: 263px;
+    margin-left: 111px;
   }
   h1 {
     font-size: 0.37rem;
