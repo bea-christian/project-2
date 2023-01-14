@@ -113,10 +113,6 @@
 
 @media (max-width: 560px) {
 
-    .pokegenerator {
-    margin-bottom: -120px;
-    }
-
     .pokedex {
         width: 400px;
     }
@@ -150,12 +146,9 @@
 
 @media (max-width: 450px) {
 
-    .pokegenerator {
-    margin-bottom: -160px;
-    }
-
     .pokedex {
         width: 280px;
+        margin-top: -50px;
     }
 
     button {
@@ -173,8 +166,8 @@
     }
 
     .pokename {
-    margin-top: 263px;
-    margin-left: 107px;
+    margin-top: 261px;
+    margin-left: 100px;
     }
 
     h1 {

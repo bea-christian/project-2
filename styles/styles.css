@@ -438,9 +438,6 @@ a:hover, a:focus {
   }
 }
 @media (max-width: 560px) {
-  .pokegenerator {
-    margin-bottom: -120px;
-  }
   .pokedex {
     width: 400px;
   }
@@ -467,11 +464,9 @@ a:hover, a:focus {
   }
 }
 @media (max-width: 450px) {
-  .pokegenerator {
-    margin-bottom: -160px;
-  }
   .pokedex {
     width: 280px;
+    margin-top: -50px;
   }
   button {
     padding: 7px 6px;
@@ -486,8 +481,8 @@ a:hover, a:focus {
     margin-right: 143px;
   }
   .pokename {
-    margin-top: 263px;
-    margin-left: 107px;
+    margin-top: 261px;
+    margin-left: 100px;
   }
   h1 {
     font-size: 0.37rem;
