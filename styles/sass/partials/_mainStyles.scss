@@ -38,13 +38,19 @@ button {
   margin-right: 499px;
   color: black;
   border: 1px solid black;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+// reference -> https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/
+button:active {
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .pokename {
-  // display: flex;
   margin-top: 187px;
   margin-left: 287px;
-  // flex-direction: column;
 }
 
 h1 {
