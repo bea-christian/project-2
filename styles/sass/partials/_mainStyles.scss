@@ -1,0 +1,66 @@
+
+/* MAIN STYLES */
+
+.pokedexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pokedex {
+  background-image: url(../assets/Pokedex.png);
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1100px;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.pokemonImage {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  margin-top: 160px;
+  margin-right: 422px;
+}
+
+button {
+  position: absolute;
+  padding: 21px 23px;
+  border-radius: 10px;
+  background-color: yellow;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 490px;
+  margin-right: 499px;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+// reference -> https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/
+button:active {
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.pokename {
+  margin-top: 187px;
+  margin-left: 287px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+}

@@ -1,0 +1,503 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* BASE STYLES */
+body {
+  font-size: 62.5%;
+  background-image: url(../assets/wp8797805-pokemon-pixel-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "digital-7regular";
+  background-attachment: fixed;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
+  height: auto;
+}
+
+/* HEADER STYLES */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pokegenerator {
+  height: auto;
+  min-width: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* MAIN STYLES */
+.pokedexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pokedex {
+  background-image: url(../assets/Pokedex.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1100px;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.pokemonImage {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  margin-top: 160px;
+  margin-right: 422px;
+}
+
+button {
+  position: absolute;
+  padding: 21px 23px;
+  border-radius: 10px;
+  background-color: yellow;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 490px;
+  margin-right: 499px;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.pokename {
+  margin-top: 187px;
+  margin-left: 287px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:focus {
+  color: #ff0;
+}
+
+@media (max-width: 920px) {
+  .pokegenerator {
+    margin-bottom: 0px;
+  }
+  .pokedex {
+    width: 700px;
+  }
+  button {
+    padding: 16px 19px;
+    font-size: 0.9rem;
+    margin-top: 462px;
+    margin-right: 430px;
+  }
+  .pokemonImage {
+    width: 180px;
+    margin-top: 177px;
+    margin-right: 363px;
+  }
+  .pokename {
+    margin-top: 202px;
+    margin-left: 244px;
+  }
+  h1 {
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 780px) {
+  .pokegenerator {
+    margin-bottom: -50px;
+  }
+  .pokedex {
+    width: 600px;
+  }
+  button {
+    padding: 13px 13px;
+    font-size: 0.8rem;
+    margin-top: 439px;
+    margin-right: 362px;
+  }
+  .pokemonImage {
+    width: 170px;
+    margin-top: 183px;
+    margin-right: 322px;
+  }
+  .pokename {
+    margin-top: 214px;
+    margin-left: 214px;
+  }
+  h1 {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 660px) {
+  .pokegenerator {
+    margin-bottom: -80px;
+  }
+  .pokedex {
+    width: 500px;
+  }
+  button {
+    padding: 12px 10px;
+    font-size: 0.7rem;
+    margin-top: 414px;
+    margin-right: 301px;
+  }
+  .pokemonImage {
+    width: 150px;
+    margin-top: 200px;
+    margin-right: 253px;
+  }
+  .pokename {
+    margin-top: 228px;
+    margin-left: 176px;
+  }
+  h1 {
+    font-size: 0.67rem;
+  }
+  h2 {
+    font-size: 0.67rem;
+  }
+}
+@media (max-width: 560px) {
+  .pokedex {
+    width: 400px;
+  }
+  button {
+    padding: 8px 9px;
+    font-size: 0.6rem;
+    margin-top: 392px;
+    margin-right: 243px;
+  }
+  .pokemonImage {
+    width: 110px;
+    margin-top: 228px;
+    margin-right: 209px;
+  }
+  .pokename {
+    margin-top: 247px;
+    margin-left: 145px;
+  }
+  h1 {
+    font-size: 0.5rem;
+  }
+  h2 {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .pokedex {
+    width: 280px;
+    margin-top: -50px;
+  }
+  button {
+    padding: 7px 6px;
+    margin-top: 365px;
+    margin-right: 170px;
+    border-radius: 5px;
+    font-size: 0.4rem;
+  }
+  .pokemonImage {
+    width: 80px;
+    margin-top: 247px;
+    margin-right: 143px;
+  }
+  .pokename {
+    margin-top: 261px;
+    margin-left: 100px;
+  }
+  h1 {
+    font-size: 0.37rem;
+  }
+  h2 {
+    font-size: 0.37rem;
+  }
+}
